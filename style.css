@@ -1,0 +1,138 @@
+/* 全局重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 基础样式 */
+:root {
+    --primary: #2c3e50;
+    --accent: #3498db;
+    --light: #ecf0f1;
+    --dark: #2d3436;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--dark);
+    background: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 导航栏 */
+.navbar {
+    background: var(--primary);
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+/* 英雄区 */
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, var(--accent), var(--primary));
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: #f1c40f;
+}
+
+.btn {
+    padding: 12px 24px;
+    background: var(--light);
+    color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* 通用区域 */
+section {
+    padding: 80px 0;
+}
+
+.about, .contact {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+
+/* 联系区 */
+.qr-code {
+    width: 150px;
+    margin-top: 15px;
+}
+
+/* 页脚 */
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+    .nav-links {
+        gap: 1rem;
+    }
+    .hero h2 {
+        font-size: 2rem;
+    }
+}
