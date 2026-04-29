@@ -113,6 +113,14 @@ h2 {
     color: var(--primary);
 }
 
+/* README 样式优化 */
+.markdown-body {
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* 联系区 */
 .qr-code {
     width: 150px;
