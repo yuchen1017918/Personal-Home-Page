@@ -1,6 +1,6 @@
-// 加载并渲染 README.md
+// 加载并渲染 Profile.md
 document.addEventListener('DOMContentLoaded', function () {
-  fetch('README.md')
+  fetch('Profile.md') // 这里已改成 Profile.md
     .then(res => res.text())
     .then(md => {
       const html = marked.parse(md, {
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('readme-content').innerHTML = html;
     })
     .catch(err => {
-      console.error('README 加载失败', err);
+      console.error('Profile 加载失败', err);
       document.getElementById('readme-content').innerText = '加载关于我信息失败';
     });
 });

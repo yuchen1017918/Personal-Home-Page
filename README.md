@@ -1,37 +1,44 @@
-# Hi there 👋 我是宇辰
+# Personal-Home-Page 个人主页  
+一个简洁、美观、轻量化的个人主页项目，基于原生 HTML + CSS + JavaScript 开发，支持 README/Profile 内容渲染，可直接部署到 GitHub Pages。  
 
-热爱折腾的前端小白 🏗️  
-这里放着我的各种小项目和学习记录，欢迎交流~
+## ✨ 项目特点  
+- 纯原生前端技术，无框架依赖  
+- 响应式布局，支持电脑 / 手机访问  
+- 平滑滚动、页面淡入动画  
+- 可自动渲染 Markdown 个人介绍（Profile.md）  
+- 导航栏 + 首页 + 关于我 + 联系方式 完整结构  
+- 一键部署 GitHub Pages  
 
----
+## 🛠️ 技术栈  
+- HTML5  
+- CSS3  
+- 原生 JavaScript  
+- Marked.js（Markdown 渲染）  
+- Highlight.js（代码高亮）  
 
-## 🛠️ 我在用的技术栈
-- 前端：HTML / CSS / JavaScript
-- 工具：Git / GitHub Pages / VS Code
+## 🚀 快速使用  
+1. 克隆或下载本项目  
+2. 直接打开 `index.html`（推荐使用 Live Server）  
+3. 自定义修改文字、头像、链接  
+4. 推送到 GitHub 开启 Pages 即可上线  
 
----
+## 📁 文件结构  
+```   
+Personal-Home-Page/  
+├ index.html # 主页面  
+├ style.css # 样式文件  
+├ script.js # 交互逻辑  
+├ README.md # 项目说明（本文件）  
+├ Profile.md # 个人介绍（渲染到 “关于我”）  
+└ favicon.ico # 网站图标  
+```  
 
-## 🚀 我的代表项目
-| 项目名称 | 项目介绍 | 在线预览 |
-| :--- | :--- | :--- |
-| 我的导航页面 | 一个支持多引擎搜索、深色模式、自定义网址的个人浏览器导航页 | [点击访问](https://yuchen1017918.github.io/my-nav-page/) |
-| class_circle | 为班主任和同学打造的班级交流与管理系统 | 未部署 |
+## 🌐 在线预览
+[https://yuchen1017918.github.io/Personal-Home-Page/](https://yuchen1017918.github.io/Personal-Home-Page/)
 
----
+## 📝 作者
+宇辰  
+GitHub：https://github.com/yuchen1017918
 
-## 📊 GitHub 小数据
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yuchen1017918&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yuchen1017918&layout=compact&theme=radical)
-
----
-
-## 👀 访客记录
-![Visitor Count](https://komarev.com/ghpvc/?username=yuchen1017918&color=blue)
-
----
-
-## 💬 欢迎来找我玩
-- 如果你对我的项目有任何建议，随时在仓库里提 Issue 或私信我~
-- 一起学习前端，一起折腾有趣的小工具！
-
-⭐ 如果我的项目对你有帮助，欢迎给个 Star 鼓励一下！
+## 📄 许可证
+MIT License
