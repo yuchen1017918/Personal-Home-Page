@@ -1,13 +1,14 @@
 # Hi there 👋 我是宇辰
 
-热爱折腾的前端小白 🏗️  
+热爱折腾的AI小白 🏗️  
 这里放着我的各种小项目和学习记录，欢迎交流~
 
 ---
 
 ## 🛠️ 我在用的技术栈
 - 前端：HTML / CSS / JavaScript
-- 工具：Git / GitHub Pages / VS Code
+- AI：python
+- 工具：Git / GitHub Pages / VS Code / ollama / hermes-agent
 
 ---
 
@@ -15,7 +16,7 @@
 | 项目名称 | 项目介绍 | 在线预览 |
 | :--- | :--- | :--- |
 | 我的导航页面 | 一个支持多引擎搜索、深色模式、自定义网址的个人浏览器导航页 | [点击访问](https://yuchen1017918.github.io/my-nav-page/) |
-| class_circle | 为班主任和同学打造的班级交流与管理系统 | 未部署 |
+| vibe-skill-ops | Hermes Agent 上自治理的 Vibe Coding skill 体系:三层路由、确认 SLA、知识萃取、成本感知治理 | [点击访问](https://yuchen1017918.github.io/vibe-skill-ops/) |
 
 ---
 
@@ -32,6 +33,6 @@
 
 ## 💬 欢迎来找我玩
 - 如果你对我的项目有任何建议，随时在仓库里提 Issue 或私信我~
-- 一起学习前端，一起折腾有趣的小工具！
+- 一起学习前端和AI，一起折腾有趣的小工具！
 
 ⭐ 如果我的项目对你有帮助，欢迎给个 Star 鼓励一下！
